@@ -1,3 +1,5 @@
+
+//fazer o menu descer.
 window.onload = function(e) {
     var offset = document.getElementsByClassName('menu-nav')[0].offsetTop;
     var menu = document.getElementsByClassName('menu-nav')[0];
@@ -26,3 +28,4 @@ window.onload = function(e) {
         }
     });
 }
+
