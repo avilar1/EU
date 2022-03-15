@@ -11,17 +11,17 @@ window.onload = function(e) {
             menu.style.top = '0';
             menu.style.paddingTop = '0';
             menu.style.width = '100%'
-            ulmenu.style.padding = '1em';
+            ulmenu.style.padding = '1em 1em 0 1em';
             ulmenu.style.background = '#BBBBBB';
             ulmenu.style.display = 'block';
             ulmenu.style.height = '100%';
 
         } else {
             menu.style.position = 'initial';
-            menu.style.paddingTop = '2em';
+            menu.style.paddingTop = '1em';
             menu.style.paddingBottom = '0.5em';
             ulmenu.style.background = 'initial';
-            ulmenu.style.padding = '2em 2em 2em 1em';
+            ulmenu.style.padding = '1em';
             ulmenu.style.background = 'initial';
             ulmenu.style.display = 'initial';
             ulmenu.style.height = 'initial';
