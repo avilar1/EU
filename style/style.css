@@ -154,6 +154,25 @@ section p{
 	margin-top: 10px;
 }
 
+/*exemplos*/
+.botao-e{
+	background: #292e2e;
+	border-radius: 6px;
+	padding: 0.5em;
+	cursor: pointer;
+	border: none;
+	font-size: 1.5em;
+	font-weight: bold;
+	color: #c6d2d2;
+	transition: 400ms;
+}
+
+.botao-e:hover{
+	font-size: 2em;
+	box-shadow: 10px 10px 31px 0px #000000;
+	opacity: 1;
+}
+
 /*Fim do corpo*/
 
 /*Início do rodapé*/
