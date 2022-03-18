@@ -101,7 +101,6 @@ section p{
 	border:1px solid #000000;
 }
 
-
 #exemplo1{
 	flex-direction: row;
 	height: 90%;
@@ -142,16 +141,19 @@ section p{
 .areas h2{
 	font-size: 2em;
 	font-weight: bold;
+	overflow: hidden;
 }
 
 .areas-descricao{
 	font-size: 1.5em;
+	overflow: hidden;
 }
 
 .areas-nivel{
 	font-size: 2em;
 	font-weight: bold;
 	margin-top: 10px;
+	overflow: hidden;	
 }
 
 /*exemplos*/
@@ -171,6 +173,53 @@ section p{
 	font-size: 2em;
 	box-shadow: 10px 10px 31px 0px #000000;
 	opacity: 1;
+}
+
+/*aprendizado*/
+.aprende{
+	display: inline-block;
+	padding: 0.5em;
+	margin: 0 0 0 0.5em;
+	border: 2px solid #000000;
+	border-radius: 10px;
+	box-sizing: border-box;
+	flex-direction: row;
+}
+
+.aprende:hover{
+	font-size: 2em;
+	border-color: red;
+	transition: 400ms;
+	box-shadow: 0px 0px 10px 2px #000;
+}
+
+.aprende:not(:hover){
+	transition: 400ms;
+}
+
+.aprende-img{
+
+}
+
+/*sobre*/
+
+.hSobre{
+	color: #01003e;
+	font-weight: bold;
+	font-size: 2.5em;
+}
+
+.sobreP{
+	font-size: 1.5em;
+	padding: 0.3em;
+}
+
+.sobreP:before{
+	content: "* ";
+}
+
+.sobreP:after{
+	content: " *";
 }
 
 /*Fim do corpo*/
