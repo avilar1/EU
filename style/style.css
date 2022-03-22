@@ -7,9 +7,15 @@ body{
 header{
 	background: #BBBBBB;
 	padding: 20px 0 0 0;
-	flex-direction: row;
+	flex-direction: row;*/
 
 }
+
+/*
+.menu-nav{
+	position: sticky;
+  	top: 0;
+}*/
 
 header h1{
 	text-transform: uppercase;
@@ -17,18 +23,15 @@ header h1{
 	font-size: 50px;
 	color: #01003e;
 }
+
 .ulmenu {
-	
 	padding: 1em;
-	padding-bottom: 0;
-
+	/*padding-bottom: 0;*/
 }
-
 
 nav li{
 	display: inline;
 	margin: 0 0 0 0.5em;
-
 }
 
 nav a{
@@ -207,6 +210,15 @@ section p{
 	color: #01003e;
 	font-weight: bold;
 	font-size: 2.5em;
+	padding: 1em 0 0.3em;
+}
+
+.hSobre:before{
+	content: "* ";
+}
+
+.hSobre:after{
+	content: " *";
 }
 
 .sobreP{
@@ -214,13 +226,30 @@ section p{
 	padding: 0.3em;
 }
 
-.sobreP:before{
-	content: "* ";
+.sobreP > a {
+	text-decoration: none;
 }
 
-.sobreP:after{
-	content: " *";
+.sobreP > a:hover{
+	font-size: 1.2em;
+	transition: 400ms;
 }
+.sobreP > a:not(:hover){
+	transition: 400ms;
+}
+
+.Asobre{
+	padding: 2em;
+}
+
+.Asobre span {
+	display: none;
+}
+
+.hSobre:hover span {
+	display: block;
+}
+
 
 /*Fim do corpo*/
 
